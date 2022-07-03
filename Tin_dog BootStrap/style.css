@@ -1,0 +1,117 @@
+body{
+  text-align: center;
+}
+.color_Section{
+  background-color: #ff4c68;
+  padding: 5% 13%;
+  /* max-height:80vh; */
+
+}
+.navbar-brand{
+    
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.Heading_text{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* text-align: start; */
+}
+.Head{
+  text-align: start;
+}
+/* .heading_btn{
+  /* text-align: start; 
+} */
+.title_img{
+  width:30%;
+  right:25%;
+  transform: rotate(20deg);
+  position: absolute;
+  z-index: 0;
+}
+
+
+.features_section{
+  position: relative;
+padding: 5% 10%;
+background-color: white;
+}
+i{
+  color:#ef8172;
+}
+i:hover{
+ color:#ff4c68;  
+}
+.slide-img{
+  height: 8rem;
+  border-radius: 10rem;
+   margin:0px auto;
+}
+.carousel{
+  background-color: #ff4c68;
+}
+.carousel-item{
+   padding:10% 10% 5% 10%;
+}
+.testmonials{
+  background-color: #ff4c68;
+}
+.company_image{
+  width:20%;
+}
+.slide_text{
+  font-size: 2.6rem;
+  font-family: Montserrat;
+  line-height:1.5;
+}
+.card-header{
+    font-size: large;
+    font-weight: bolder;
+}
+.card-title{
+  font-size: 2.5rem;
+  
+}
+.pricing_section{
+     padding:5% 10%;
+}
+.download_Section{
+  background-color: #ff4c68;
+  padding: 7% 10%;
+}
+.footer{
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+  font-size: 2rem;
+}
+.fa_in{
+  padding:20px;
+}
+.copy_right{
+  font-size: 1rem;
+  font-weight: lighter;
+  
+}
+@media (max-width:992px) {
+  .Heading_text{
+    text-align: center;
+  }
+  .heading_btn{
+    text-align: center;
+  }
+ 
+  .title_img{
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 3rem;
+    width: 50%;
+  }
+}
